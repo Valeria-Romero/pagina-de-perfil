@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor, .contenido-solicitud, .imagenYnombre, .iconos, .amigos-header, .amigo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.solicitudes-header, .amigos-header{
+    background-color: black;
+}
+
+.solicitudes-header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+}
+
+h4{
+    color: white;
+}
+.numero-solicitudes, .numero-amigos{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contenido-solicitud, .amigo, .imagenYnombre{
+    align-items: center;
+}
+
+.solicitudes{
+    border: 2px solid gray;
+}
+
+img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Empieza barra de navegacion -->
+    <div class="navegacion">
+        <ul class="menu">
+            <li class="selected">Profile</li>
+            <li>Home</li>
+            <li class="subselected">My profile</li>
+            <li>Find Connections</li>
+        </ul>
+        <button class="signOut">Sign Out</button>
+    </div>
+    <!-- Termina barra de navegacion -->
+
+    <!-- Empieza contenedor principal -->
+    <div class="contenedor">
+        <!-- Columna izquiera -->
+        <div class="contenedor-izq">
+            <div class="tarjeta-perfil">
+                <div class="tarjeta-header">
+                    <img src="./imgs/jane-m.jpg" alt="Imagen de Jane">
+                </div>
+                <div class="tarjeta-contenido">
+                    <h1>Jane Doe</h1>
+                    <div>
+                        <img src="./imgs/map-marker.png" alt="Pin de locacion">
+                        <h3>Seattle</h3>
+                    </div>
+                    <p>
+                        Developer | Engenieer | Problem Solver <br>
+                        Master of Shadows and the internet!
+                    </p>
+                    <div class="editar-perfil">
+                        <img src="./imgs/gear.png" alt="Engranaje">
+                        <a href="#">Edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="educacion">
+                <div class="educacion-header">
+                    <h4 class="educacion-titulo">Education</h4>
+                </div>
+                <div class="educacion-contenido">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Triple Black belt in python, MERN and C#...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="contenedor-der">
+            <div class="solicitudes">
+                <div class="solicitudes-header">
+                    <p class="numero-solicitudes">2</p>
+                    <h4>Connection Requests</h4>
+                </div>
+
+                <div class="contenido-solicitud">
+                    <div class="imagenYnombre">
+                        <img src="./imgs/todd-s.jpg" alt="Imagen de todd">
+                        <p>Todd E</p>
+                    </div>
+                    <div class="iconos">
+                        <img src="./imgs/accept-circle.png" alt="Aceptar">
+                        <img src="./imgs/close-circle.png" alt="Cancelar">
+                    </div>
+                </div>
+
+                <div class="contenido-solicitud">
+                    <div class="imagenYnombre">
+                        <img src="./imgs/phil-s.jpg" alt="Imagen de todd">
+                        <p>Phil K</p>
+                    </div>
+                    <div class="iconos">
+                        <img src="./imgs/accept-circle.png" alt="Aceptar">
+                        <img src="./imgs/close-circle.png" alt="Cancelar">
+                    </div>
+                </div>
+            </div>
+
+            <div class="amigos">
+                <div class="amigos-header">
+                    <p class="numero-amigos">500+</p>
+                    <h4>Your Connections</h4>
+                </div>
+
+                <div class="amigos-contenido">
+                    <div class="amigo">
+                        <img src="./imgs/adrien-s.jpg" alt="Adrien">
+                        <p>Andrien D</p>
+                    </div>
+
+                    <div class="amigo">
+                        <img src="./imgs/anne-s.jpg" alt="Adrien">
+                        <p>Anne J</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
