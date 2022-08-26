@@ -10,7 +10,7 @@
 <body>
 
     <!-- Empieza barra de navegacion -->
-    <div class="navegacion">
+    <div class="navbar">
         <ul class="menu">
             <li class="selected">Profile</li>
             <li>Home</li>
@@ -25,23 +25,23 @@
     <div class="contenedor">
         <!-- Columna izquiera -->
         <div class="contenedor-izq">
-            <div class="tarjeta-perfil">
-                <div class="tarjeta-header">
-                    <img src="./imgs/jane-m.jpg" alt="Imagen de Jane">
+            <div class="main">
+                <div class="cardheader"> 
+                    <img src="./imgs/jane-m.jpg" class="user" alt="jane picture">
                 </div>
-                <div class="tarjeta-contenido">
+                <div class="cardinformation">
                     <h1>Jane Doe</h1>
-                    <div>
-                        <img src="./imgs/map-marker.png" alt="Pin de locacion">
+                    <div class="location">
+                        <img src="./imgs/map-marker.png" class="pin" alt="location pin">
                         <h3>Seattle</h3>
                     </div>
-                    <p>
-                        Developer | Engenieer | Problem Solver <br>
-                        Master of Shadows and the internet!
+                    <p class="parrafo">
+                        Developer | Engenieer | Problem Solver<br>
+                        Master of shadows and the Internet!
                     </p>
-                    <div class="editar-perfil">
-                        <img src="./imgs/gear.png" alt="Engranaje">
-                        <a href="#">Edit profile</a>
+                    <div class="edit">
+                        <img src="./imgs/gear.png" class="gear" alt="gear icon">
+                        <a href="#">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -67,23 +67,23 @@
 
                 <div class="contenido-solicitud">
                     <div class="imagenYnombre">
-                        <img src="./imgs/todd-s.jpg" alt="Imagen de todd">
+                        <img src="./imgs/todd-s.jpg" alt="Imagen de todd" class="imagen_usuario">
                         <p>Todd E</p>
                     </div>
                     <div class="iconos">
-                        <img src="./imgs/accept-circle.png" alt="Aceptar">
-                        <img src="./imgs/close-circle.png" alt="Cancelar">
+                        <img src="./imgs/accept-circle.png" alt="Aceptar" class="icono">
+                        <img src="./imgs/close-circle.png" alt="Cancelar" class="icono">
                     </div>
                 </div>
 
                 <div class="contenido-solicitud">
                     <div class="imagenYnombre">
-                        <img src="./imgs/phil-s.jpg" alt="Imagen de todd">
+                        <img src="./imgs/phil-s.jpg" alt="Imagen de todd" class="imagen_usuario">
                         <p>Phil K</p>
                     </div>
                     <div class="iconos">
-                        <img src="./imgs/accept-circle.png" alt="Aceptar">
-                        <img src="./imgs/close-circle.png" alt="Cancelar">
+                        <img src="./imgs/accept-circle.png" alt="Aceptar" class="icono">
+                        <img src="./imgs/close-circle.png" alt="Cancelar" class="icono">
                     </div>
                 </div>
             </div>
@@ -96,13 +96,27 @@
 
                 <div class="amigos-contenido">
                     <div class="amigo">
-                        <img src="./imgs/adrien-s.jpg" alt="Adrien">
+                        <img src="./imgs/adrien-s.jpg" alt="Adrien" class="imagen_usuario">
                         <p>Andrien D</p>
                     </div>
 
                     <div class="amigo">
-                        <img src="./imgs/anne-s.jpg" alt="Adrien">
+                        <img src="./imgs/anne-s.jpg" alt="Anne" class="imagen_usuario">
                         <p>Anne J</p>
+                    </div>
+
+                    <div class="amigo">
+                        <img src="./imgs/alayne-s.jpg" alt="Alayne" class="imagen_usuario">
+                        <p>Alayne</p>
+                    </div>
+
+                    <div class="amigo">
+                        <img src="./imgs/arry-s.jpg" alt="Arry" class="imagen_usuario">
+                        <p>Arry</p>
+                    </div>
+
+                    <div class="ver-mas">
+                        <a href="#">View more</a>
                     </div>
                 </div>
             </div>
